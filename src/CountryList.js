@@ -77,7 +77,7 @@ function CountryList() {
                 <td>{country.shortName}</td>
                 <td>{country.countryCode}</td>
                 <td>
-                  <div className="w-75 btn-group">
+                  <div className="w-75 btn-group" role="group">
                     <Link
                       to={`/detail/${country.id}`}
                       className="btn btn-primary"
